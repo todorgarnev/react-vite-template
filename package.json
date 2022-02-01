@@ -5,12 +5,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "lint": "vite lint",
     "prepare": "husky install",
     "pre-commit": "lint-staged && git add -A ."
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": "eslint --fix",
-    "src/**/*.scss": "stylelint --fix"
+    "**/*.{ts,tsx}": "eslint --fix",
+    "**/*.scss": "stylelint --fix"
   },
   "dependencies": {
     "react": "^17.0.2",
