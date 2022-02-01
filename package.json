@@ -9,8 +9,8 @@
     "pre-commit": "lint-staged && git add -A ."
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix",
-    "*.scss": "stylelint --fix"
+    "src/**/*.{ts,tsx}": "eslint --fix",
+    "src/**/*.scss": "stylelint --fix"
   },
   "dependencies": {
     "react": "^17.0.2",
