@@ -1,13 +1,13 @@
-import Test from "./components/test/Test";
-
-function App() {
-  let test;
-
+const App = () => {
   return (
     <div className="App">
-      <Test />
+      Template Vite + React
+
+      <br />
+
+      This is env variable: {import.meta.env.VITE_MESSAGE}
     </div>
   );
-}
+};
 
 export default App;
