@@ -1,10 +1,8 @@
 # Template React project with Vite
 
-## Vite
-
 ![Vite](https://vitejs.dev/logo.svg)
 
-Next Generation Frontend Tooling
+> Next Generation Frontend Tooling
 
 ### What it includes
 
